@@ -9,7 +9,7 @@ private fun fizzOrBuzz(n: Int): String {
     return fbFunction(3, "Fizz", fbFunction(5, "Buzz", identity))(n.toString())
 }
 
-fun solve(n: Int) {
+fun solveFizzBuzz(n: Int) {
     IntStream.iterate(1, { it < n }, { it.inc() }).forEach {
         println(fizzOrBuzz(it))
     }

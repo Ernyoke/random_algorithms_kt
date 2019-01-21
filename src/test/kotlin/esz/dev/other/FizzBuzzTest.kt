@@ -5,6 +5,6 @@ import org.junit.Test
 class FizzBuzzTest {
     @Test
     fun test() {
-        solve(20)
+        solveFizzBuzz(20)
     }
 }
