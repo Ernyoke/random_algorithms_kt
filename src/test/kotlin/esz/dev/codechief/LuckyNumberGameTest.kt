@@ -3,7 +3,7 @@ package esz.dev.codechief
 import org.junit.Assert.*
 import org.junit.Test
 
-class LuckyNumberGameKtTest {
+class LuckyNumberGameTest {
     @Test
     fun test1() {
         val numbers = listOf(1, 2, 3, 4, 5)

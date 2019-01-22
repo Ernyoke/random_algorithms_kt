@@ -3,7 +3,7 @@ package esz.dev.codechief
 import org.junit.Assert.*
 import org.junit.Test
 
-class FancyKtTest {
+class FancyTest {
     @Test
     fun onlyNot() {
         assertEquals("Real Fancy", solve("not"))
